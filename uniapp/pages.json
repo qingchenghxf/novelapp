@@ -1,0 +1,184 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+				    "bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/category/category",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+				    "bounce": "none"
+				}
+		    }
+		},
+		{
+			"path": "pages/rank/rank",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+				    "bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/mybooks/mybooks",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+				    "bounce": "none"
+				}
+				
+			}
+		},
+		{
+			"path": "pages/bookinfo/bookinfo",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+				    "bounce": "none"
+				}
+				
+			}
+		},
+		{
+			"path": "pages/searchRes/searchRes",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+				    "bounce": "none"
+				}
+				
+			}
+		},
+		{
+			"path": "pages/read/read",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+				    "bounce": "none"
+				}
+			}
+		},
+		{
+			"path": "pages/read/localread",
+			"style": {
+				"navigationStyle": "custom",
+				"app-plus": {
+				    "bounce": "none"
+				}
+			}
+		}
+	    ,{
+            "path" : "pages/searchlocal/searchlocal",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "导入本地图书",
+                "enablePullDownRefresh": false,
+				"navigationBarTextStyle":"white"
+            }
+            
+        }
+        ,{
+            "path" : "pages/web/web",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/center/center",
+            "style" :                                                                                    
+            {
+                "navigationStyle": "custom",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/login/login",
+            "style" :                                                                                    
+            {
+                 "navigationStyle": "custom",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/setting/setting",
+            "style" :                                                                                    
+            {
+                "navigationStyle": "custom",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/viewhistory/viewhistory",
+            "style" :                                                                                    
+            {
+                "navigationStyle": "custom",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"tabBar": {
+		"list": [
+			{
+				"pagePath": "pages/mybooks/mybooks",
+				"text": "书架",
+				"iconPath": "/static/imgs/mybooks.png",
+				"selectedIconPath": "/static/imgs/mybooks_selected.png"
+			},
+			{
+				"pagePath": "pages/index/index",
+				"text": "精选",
+				"iconPath": "/static/imgs/index.png",
+				"selectedIconPath": "/static/imgs/index_selected.png"
+			},
+			{
+				"pagePath": "pages/category/category",
+				"text": "书城",
+				"iconPath": "/static/imgs/category.png",
+				"selectedIconPath": "/static/imgs/category_selected.png"
+			},
+			{
+				"pagePath": "pages/rank/rank",
+				"text": "排行",
+				"iconPath": "/static/imgs/rank.png",
+				"selectedIconPath": "/static/imgs/rank_selected.png"
+			},
+			{
+				"pagePath": "pages/center/center",
+				"text": "我的",
+				"iconPath": "/static/imgs/center.png",
+				"selectedIconPath": "/static/imgs/center_selected.png"
+			}
+			
+		],
+		"color": "#707070",
+		"selectedColor": "#2979ff"
+	},
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
+	
+	"globalStyle": {
+		"navigationBarBackgroundColor": "#2979ff",
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "爱看小说",
+		"backgroundColor": "#eeeeee",
+		"backgroundTextStyle": "light",
+		"enablePullDownRefresh": false
+	},
+	"subPackages": []
+}
